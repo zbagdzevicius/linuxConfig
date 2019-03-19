@@ -27,8 +27,8 @@ setuptools.setup(
  """
 
 /build wheel
- python3 setup.py bdist_wheel
+python3 setup.py bdist_wheel
 
 
 /push to pypi
- python -m twine upload dist/*
+python -m twine upload dist/*
