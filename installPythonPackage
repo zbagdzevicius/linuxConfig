@@ -1,1 +1,8 @@
+
+/from current directory
 pip install -e .
+/from github
+pip3 install git+https://github.com/zbagdzevicius/scrapperize.git
+/from github private
+pip3 install git+ssh://git@github.com/myuser/foo.git@my_version
+
